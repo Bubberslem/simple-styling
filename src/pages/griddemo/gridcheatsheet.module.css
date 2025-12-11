@@ -1,10 +1,11 @@
 .container {
+  padding: 50px 10px 10px 10px;
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
   grid-template-rows: 80px 80px 80px;    /* 3 rows of 80px */
   gap: 10px;
   width: 100%;
-  padding: 10px;
+  
 }
 
 .item {

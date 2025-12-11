@@ -11,7 +11,7 @@ createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}>
-        <Route index element={<div>Welcome to the Styling Demo! Select FlexBox or Grid from the menu.</div>} />
+        <Route index element={<div className="welcome">Welcome to the Styling Demo! Select FlexBox or Grid from the menu.</div>} />
         <Route path="flex" element={<FlexBox />} />
         <Route path="grid" element={<Grid />} />
         <Route path="gridcheatsheet" element={<GridCheatSheet />} />
